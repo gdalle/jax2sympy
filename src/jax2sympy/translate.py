@@ -1,4 +1,4 @@
-from jax.core import Literal
+from typing import Literal
 import sympy as sy
 from jax2sympy.primitive_mapping import primitive_to_sympy_op
 import numpy as np
